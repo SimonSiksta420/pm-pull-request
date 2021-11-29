@@ -1,3 +1,9 @@
+<?php
+
+require_once "class/animal.php";
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,5 +13,12 @@
     <title>Document</title>
 </head>
 <body>
+
+ <?php
+
+$animals[1] = new Animal("Monkey", "4");
+
+ ?>
+
 </body>
 </html>
