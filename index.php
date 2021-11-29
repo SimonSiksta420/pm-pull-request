@@ -16,7 +16,7 @@ require_once "class/animal.php";
 
  <?php
 
-$animals[1] = new Animal("Monkey", "4");
+  $animals[1] = new Animal("Monkey", "4");
 
  ?>
 
